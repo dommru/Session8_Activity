@@ -1,0 +1,130 @@
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyU1Wl9Akh5qqvYNUwoO7f+1g6Z6uZlJ/c" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/Index">
+                    <img src="https://static.vecteezy.com/system/resources/previews/000/562/428/original/tooth-shape-dental-logo-template-illustration-design-vector-eps-10.jpg" alt="TeethJob Logo" width="40" height="40">
+                    Moreno Dental Care
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu Bar-->
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <!--ddl - services-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                            <!--Submenu-->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <li><a class="dropdown-item" href="/Products">Preventive Care</a></li>
+                                <li><a class="dropdown-item" href="/Restorative">Restorative Procedure</a></li>
+                                <li><a class="dropdown-item" href="/Orthodontic">Orthodontic Solution</a></li>
+                            </ul>
+                        </li>
+                        <!--ddl about-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" asp-page="/Profile" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                            <!--submenu-->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                <li><a class="dropdown-item" href="/Profile">About the Developer</a></li>
+                                <li><a class="dropdown-item" href="/AboutClinic">About the Clinic</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="SiteHeader">
+        <p class="display-1">Moreno Dental Care</p>
+        <img src="https://www.colgate.com.au/content/dam/cp-sites/oral-care/oral-care-center/en-au/sub-brands-pages/total/colgate-girl-in-sun-desktop.jpg" class="img img-fluid" />
+    </div>
+
+    <div class="content">
+        <p class="display-3">Why Trust Us?</p>
+        <div class="row">
+            <div class="col-md-4 bg-info">
+                <img src="https://www.mainesbdc.org/wp-content/uploads/2019/10/clipartwiki.com-quality-clipart-1491008.png" class="img img-fluid" />
+                <p class="text-dark text-center">The best dentists in the country</p>
+            </div>
+            <div class="col-md-4 bg-info">
+                <img src="https://png.pngtree.com/png-clipart/20190119/ourlarge/pngtree-medical-equipment-medical-hospital-device-png-image_468025.jpg" class="img img-fluid" />
+                <p class="text-dark text-center">The best facility and equipment</p>
+            </div>
+            <div class="col-md-4 bg-info">
+                <img src="https://influencers.club/wp-content/uploads/2022/03/3_Services_Icon_Performance-1.png" class="img img-fluid" />
+                <p class="text-dark text-center">The best service for the best possible price</p>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <div class="SiteHeader">
+        <p class="display-2">Our Services</p>
+    </div>
+    <div class="container">
+        <br />
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="https://build-hancock.s3.amazonaws.com/wp-content/uploads/2021/04/07120903/5HVD1-scaled.jpeg" />
+                    <div class="card-body">
+                        <p class="card-text text-center"><strong>Restorative Procedures</strong></p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Restorative">View</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="https://th.bing.com/th/id/R.f3be4a9041049b0a7a1928483e548f1a?rik=nnFXtecCExDxRg&riu=http%3a%2f%2fwww.catonsvilledentalcare.com%2fwp-content%2fuploads%2f2014%2f08%2froutine-teeth-cleaning.jpg&ehk=ZS65JyfJtqhBPw931Gc29SoPAKMsrZZUj%2bW0rvJgFiU%3d&risl=1&pid=ImgRaw&r=0" />
+                    <div class="card-body">
+                        <p class="card-text text-center"><strong>Preventive Care</strong></p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Products">View</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="https://img2.cgtrader.com/items/1021601/552882b0c0/dental-orthodontic-braces-3d-model-animated-max-obj-mtl-fbx.jpg" />
+                    <div class="card-body">
+                        <p class="card-text text-center"><strong>Orthodontic Solutions</strong></p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Orthodontic">View</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
